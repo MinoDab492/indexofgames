@@ -1,0 +1,14 @@
+{
+  "name": "indexofgames",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "minodab492",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron": "^31.0.1"
+  }
+}
