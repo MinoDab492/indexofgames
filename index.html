@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Index Of Games
+  </title>
+  <link href="css/IndexOfGames.css" rel="stylesheet"/>
+  <!-- Link to your CSS file -->
+  <html lang="en">
+  </html>
+ </head>
+ <body>
+  <!-- Header -->
+  <header>
+  </header>
+  <!-- Navigation -->
+  <nav>
+   <!-- Include navigation content here -->
+  </nav>
+  <!-- Main Content -->
+  <main>
+   <!-- Calculator -->
+   <div class="box">
+    <div class="box-content">
+     <div class="box-text">
+      <h2 class="box-title">
+       Calculator
+      </h2>
+      <p class="box-description">
+       You look like you're math-ing, here's a (scuffed) calculator. I swear I'm making it look good soon. Probably.
+      </p>
+     </div>
+     <a class="box-button" href="Calculator/calculator.html" rel="noopener" target="_blank">
+      Math!
+     </a>
+    </div>
+   </div>
+   <div class="box">
+    <div class="box-content">
+     <div class="box-text">
+      <h2 class="box-title">Cookie Clicker</h2>
+      <p class="box-description">It's Cookie Clicker, if I really have to explain this one... then I will be greatly disappointed. Update instructions <a href="CookieClickerNew/updatingyoursave.html">here</a> </p>
+      <a class="box-button" href="CookieClickerNew/index.html" rel="noopener">Play!</a>
+      <!-- <a class="box-button" href="javascript:void(0);" onclick="openPopup();" rel="noopener">Play!</a> -->
+     </div>
+    </div>
+   </div>
+   <!-- FlappyJPEG -->
+   <div class="box">
+    <div class="box-content">
+     <div class="box-text">
+      <h2 class="box-title">
+       Flappy JPEG
+      </h2>
+      <p class="box-description">
+       Flappy Bird, but really scuffed. Or, if you've been here since the start, you know it as Flappy JPEG, it's that, but with a new bird variant, FlappyPNG, now too. Fancy.
+      </p>
+     </div>
+     <a class="box-button" href="FlappyJPEG/RandomPageLauncher.html" rel="noopener" target="_blank">
+      Play!
+     </a>
+    </div>
+   </div>
+   <div class="box">
+    <div class="box-content">
+     <div class="box-text">
+      <h2 class="box-title">
+       Version History
+      </h2>
+      <p class="box-description">
+       Check out the changelogs for the newest, or older versions.
+      </p>
+     </div>
+     <a class="box-button" href="VersionHistory.html" rel="noopener" target="_blank">
+      Play!
+     </a>
+    </div>
+   </div>
+  <!-- Include JavaScript files here -->
+
+  <!-- Popup box -->
+<div class="popup-box" id="popup">
+  <span class="close-btn" onclick="closePopup()">x</span>
+  <h2>[BOX_NAME]</h2>
+  <p>[BOX_TEXT]</p>
+</div>
+
+<script>
+  function openPopup() {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'block';
+  }
+
+  function closePopup() {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'none';
+  }
+</script>
+ </body>
+</html>
